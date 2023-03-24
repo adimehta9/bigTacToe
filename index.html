@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.15.1/dist/phaser-arcade-physics.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Big Tac Toe</title>
+    <link href='index.css' rel="stylesheet" />
+</head>
+<body>
+    <h1> Big Tac Toe </h1>
+    <div id = "board">
+        <div data-index ="1" class ="x-hover tile right-border bottom-border"></div>
+        <div data-index ="2" class ="o-hover tile right-border bottom-border"></div>
+        <div data-index ="3" class ="tile bottom border bottom-border"></div>
+        <div data-index ="4" class ="tile right-border bottom-border"></div>
+        <div data-index ="5" class ="tile right-border bottom-border"></div>
+        <div data-index ="6" class ="tile bottom-border"></div>
+        <div data-index ="7" class ="tile right-border"></div>
+        <div data-index ="8" class ="tile right-border"></div>
+        <div data-index ="9" class ="tile "></div>
+        <div id='stike' class = "strike"></div>
+    </div>
+
+    <div id="game-over-area" class ="hidden">
+        <h2 id="game-over-text"> Winner is X </h2>
+        <button id = "play-game"> Play Again </button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
