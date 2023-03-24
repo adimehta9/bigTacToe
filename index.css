@@ -127,11 +127,14 @@ button {
 }
 
 .x-hover:hover::after {
-    content:"X"
+    content:"X";
+    opacity: 0.4;
+    color: grey;
 
 }
 
 .o-hover:hover::after {
-    content:"O"
-    
+    content:"O";
+    opacity: 0.4;
+    color: grey;
 }
